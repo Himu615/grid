@@ -1,0 +1,43 @@
+
+.box{
+    position: relative;
+}
+ .a2{
+    z-index: 1;
+    left: 100px;
+}
+.a3{ 
+    top: -250px;
+}
+
+h1::after{
+    content: ".pdf";
+    font-size: 20px;
+}
+p::first-letter{
+    font-size: 50px;
+}
+::selection{
+    background-color: aqua;
+}
+.kire{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 50px;
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+.date, .day{
+    background-color: rgb(217, 204, 231);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.day{
+    color: chocolate;
+}
