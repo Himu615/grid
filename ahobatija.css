@@ -41,3 +41,20 @@ p::first-letter{
 .day{
     color: chocolate;
 }
+/* .nav{
+    display: flex;
+} */
+.x1{
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+li:hover{
+    background-color: bisque;
+    font-size: larger;
+}
+.x2{
+    list-style: none;  
+}
